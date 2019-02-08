@@ -1,8 +1,10 @@
 ﻿namespace EFCore.DataAccess
+
 open EFCore.DataAccess
 open EFCore.Model
 open System.Linq
 open Microsoft.EntityFrameworkCore
+
 module UserAccountsRepository =
     let getUserAccount (context: CharityContext) id =
         query {
