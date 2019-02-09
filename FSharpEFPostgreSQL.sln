@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2EB98480-8AD
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpEFPostgreSQL", "src\FSharpEFPostgreSQL\FSharpEFPostgreSQL.fsproj", "{DC4752BE-F804-4ACF-8776-DAE59A6845B5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C3C52D6E-4534-4818-815E-5CE9BEDF69EB}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpEFPostgreSQL.Tests", "tests\FSharpEFPostgreSQL.Tests\FSharpEFPostgreSQL.Tests.fsproj", "{73FB1F50-20E4-48B4-A9F1-D246683F3A7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,10 @@ Global
 		{DC4752BE-F804-4ACF-8776-DAE59A6845B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC4752BE-F804-4ACF-8776-DAE59A6845B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC4752BE-F804-4ACF-8776-DAE59A6845B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73FB1F50-20E4-48B4-A9F1-D246683F3A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FB1F50-20E4-48B4-A9F1-D246683F3A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FB1F50-20E4-48B4-A9F1-D246683F3A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FB1F50-20E4-48B4-A9F1-D246683F3A7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,5 +34,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DC4752BE-F804-4ACF-8776-DAE59A6845B5} = {2EB98480-8AD1-4232-8C11-18484F1732A2}
+		{73FB1F50-20E4-48B4-A9F1-D246683F3A7B} = {C3C52D6E-4534-4818-815E-5CE9BEDF69EB}
 	EndGlobalSection
 EndGlobal
